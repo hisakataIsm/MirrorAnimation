@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9346c12964e048eb98beb7ad2321a75, type: 3}
+  m_Name: MirrorAnimationSetting
+  m_EditorClassIdentifier: 
+  mirrorBoneSettings:
+  - baseBoneName: Character1_LeftUpLeg
+    mirrorBoneName: Character1_RightUpLeg
+  - baseBoneName: Character1_LeftLeg
+    mirrorBoneName: Character1_RightLeg
+  - baseBoneName: Character1_LeftFoot
+    mirrorBoneName: Character1_RightFoot
+  - baseBoneName: Character1_LeftToBase
+    mirrorBoneName: Character1_RightToBase
+  - baseBoneName: J_L_knee
+    mirrorBoneName: J_R_knee
+  - baseBoneName: J_L_Skirt_00
+    mirrorBoneName: J_R_Skirt_00
+  - baseBoneName: J_L_Skirt_01
+    mirrorBoneName: J_R_Skirt_01
+  - baseBoneName: J_L_Skirt_02
+    mirrorBoneName: J_R_Skirt_02
+  - baseBoneName: J_L_SkirtBack_01
+    mirrorBoneName: J_R_Skirt_01
+  - baseBoneName: J_L_SkirtBack_02
+    mirrorBoneName: J_R_Skirt_02
+  - baseBoneName: Character1_LeftShoulder
+    mirrorBoneName: Character1_RightShoulder
+  - baseBoneName: Character1_LeftArm
+    mirrorBoneName: Character1_RightArm
+  - baseBoneName: Character1_LeftForeArm
+    mirrorBoneName: Character1_RightForeArm
+  - baseBoneName: Character1_LeftHand
+    mirrorBoneName: Character1_RightHand
+  - baseBoneName: Character1_LeftHandIndex1
+    mirrorBoneName: Character1_RightHandIndex1
+  - baseBoneName: Character1_LeftHandIndex2
+    mirrorBoneName: Character1_RightHandIndex2
+  - baseBoneName: Character1_LeftHandIndex3
+    mirrorBoneName: Character1_RightHandIndex3
+  - baseBoneName: Character1_LeftHandMiddle1
+    mirrorBoneName: Character1_RightHandMiddle1
+  - baseBoneName: Character1_LeftHandMiddle2
+    mirrorBoneName: Character1_RightHandMiddle2
+  - baseBoneName: Character1_LeftHandMiddle3
+    mirrorBoneName: Character1_RightHandMiddle3
+  - baseBoneName: Character1_LeftHandPinky1
+    mirrorBoneName: Character1_RightHandPinky1
+  - baseBoneName: Character1_LeftHandPinky2
+    mirrorBoneName: Character1_RightHandPinky2
+  - baseBoneName: Character1_LeftHandPinky3
+    mirrorBoneName: Character1_RightHandPinky3
+  - baseBoneName: Character1_LeftHandRing1
+    mirrorBoneName: Character1_RightHandRing1
+  - baseBoneName: Character1_LeftHandRing2
+    mirrorBoneName: Character1_RightHandRing2
+  - baseBoneName: Character1_LeftHandRing3
+    mirrorBoneName: Character1_RightHandRing3
+  - baseBoneName: Character1_LeftHandThumb1
+    mirrorBoneName: Character1_RightHandThumb1
+  - baseBoneName: Character1_LeftHandThumb2
+    mirrorBoneName: Character1_RightHandThumb2
+  - baseBoneName: Character1_LeftHandThumb3
+    mirrorBoneName: Character1_RightHandThumb3
+  - baseBoneName: Character1_LeftHandThumb4
+    mirrorBoneName: Character1_RightHandThumb4
+  - baseBoneName: bone_eye_L
+    mirrorBoneName: bone_eye_R
+  - baseBoneName: J_L_Elbow
+    mirrorBoneName: J_R_Elbow
+  - baseBoneName: J_L_ForeArm_00_tw
+    mirrorBoneName: J_R_ForeArm_00_tw
+  - baseBoneName: J_L_Sode_A00
+    mirrorBoneName: J_R_Sode_A00
+  - baseBoneName: J_L_Sode_A01
+    mirrorBoneName: J_R_Sode_A01
+  - baseBoneName: J_L_Sode_B00
+    mirrorBoneName: J_R_Sode_B00
+  - baseBoneName: J_L_Sode_B01
+    mirrorBoneName: J_R_Sode_B01
+  - baseBoneName: J_L_Sode_C00
+    mirrorBoneName: J_R_Sode_C00
+  - baseBoneName: J_L_Sode_C01
+    mirrorBoneName: J_R_Sode_C01
+  - baseBoneName: J_L_Sode_D00
+    mirrorBoneName: J_R_Sode_D00
+  - baseBoneName: J_L_Sode_D01
+    mirrorBoneName: J_R_Sode_D01
+  - baseBoneName: J_L_Arm_00_tw
+    mirrorBoneName: J_R_Arm_00_tw
+  - baseBoneName: J_L_Sode_E00
+    mirrorBoneName: J_R_Sode_E00
+  - baseBoneName: J_L_HairFront_00
+    mirrorBoneName: J_R_HairFront_00
+  - baseBoneName: J_L_HairFront_01
+    mirrorBoneName: J_R_HairFront_01
+  - baseBoneName: J_L_HairSide2_00
+    mirrorBoneName: J_R_HairSide2_00
+  - baseBoneName: J_L_HairSide2_01
+    mirrorBoneName: J_R_HairSide2_01
+  - baseBoneName: J_L_HairSide_00
+    mirrorBoneName: J_R_HairSide_00
+  - baseBoneName: J_L_HairSide_01
+    mirrorBoneName: J_R_HairSide_01
+  - baseBoneName: J_L_HairSide_02
+    mirrorBoneName: J_R_HairSide_02
+  - baseBoneName: J_L_HairTail_00
+    mirrorBoneName: J_R_HairTail_00
+  - baseBoneName: J_L_HairTail_01
+    mirrorBoneName: J_R_HairTail_01
+  - baseBoneName: J_L_HairTail_02
+    mirrorBoneName: J_R_HairTail_02
+  - baseBoneName: J_L_HairTail_03
+    mirrorBoneName: J_R_HairTail_03
+  - baseBoneName: J_L_HeadRibbon_00
+    mirrorBoneName: J_R_HeadRibbon_00
+  - baseBoneName: J_L_HeadRibbon_01
+    mirrorBoneName: J_R_HeadRibbon_01
+  - baseBoneName: J_L_HeadRibbon_02
+    mirrorBoneName: J_R_HeadRibbon_02
+  - baseBoneName: J_L_HeadRibbon_03
+    mirrorBoneName: J_R_HeadRibbon_03
+  - baseBoneName: Character1_RightUpLeg
+    mirrorBoneName: Character1_LeftUpLeg
+  - baseBoneName: Character1_RightLeg
+    mirrorBoneName: Character1_LeftLeg
+  - baseBoneName: Character1_RightFoot
+    mirrorBoneName: Character1_LeftFoot
+  - baseBoneName: Character1_RightToBase
+    mirrorBoneName: Character1_LeftToBase
+  - baseBoneName: J_R_knee
+    mirrorBoneName: J_L_knee
+  - baseBoneName: J_R_Skirt_00
+    mirrorBoneName: J_L_Skirt_00
+  - baseBoneName: J_R_Skirt_01
+    mirrorBoneName: J_L_Skirt_01
+  - baseBoneName: J_R_Skirt_02
+    mirrorBoneName: J_L_Skirt_02
+  - baseBoneName: J_R_SkirtBack_01
+    mirrorBoneName: J_L_Skirt_01
+  - baseBoneName: J_R_SkirtBack_02
+    mirrorBoneName: J_L_Skirt_02
+  - baseBoneName: Character1_RightShoulder
+    mirrorBoneName: Character1_LeftShoulder
+  - baseBoneName: Character1_RightArm
+    mirrorBoneName: Character1_LeftArm
+  - baseBoneName: Character1_RightForeArm
+    mirrorBoneName: Character1_LeftForeArm
+  - baseBoneName: Character1_RightHand
+    mirrorBoneName: Character1_LeftHand
+  - baseBoneName: Character1_RightHandIndex1
+    mirrorBoneName: Character1_LeftHandIndex1
+  - baseBoneName: Character1_RightHandIndex2
+    mirrorBoneName: Character1_LeftHandIndex2
+  - baseBoneName: Character1_RightHandIndex3
+    mirrorBoneName: Character1_LeftHandIndex3
+  - baseBoneName: Character1_RightHandMiddle1
+    mirrorBoneName: Character1_LeftHandMiddle1
+  - baseBoneName: Character1_RightHandMiddle2
+    mirrorBoneName: Character1_LeftHandMiddle2
+  - baseBoneName: Character1_RightHandMiddle3
+    mirrorBoneName: Character1_LeftHandMiddle3
+  - baseBoneName: Character1_RightHandPinky1
+    mirrorBoneName: Character1_LeftHandPinky1
+  - baseBoneName: Character1_RightHandPinky2
+    mirrorBoneName: Character1_LeftHandPinky2
+  - baseBoneName: Character1_RightHandPinky3
+    mirrorBoneName: Character1_LeftHandPinky3
+  - baseBoneName: Character1_RightHandRing1
+    mirrorBoneName: Character1_LeftHandRing1
+  - baseBoneName: Character1_RightHandRing2
+    mirrorBoneName: Character1_LeftHandRing2
+  - baseBoneName: Character1_RightHandRing3
+    mirrorBoneName: Character1_LeftHandRing3
+  - baseBoneName: Character1_RightHandThumb1
+    mirrorBoneName: Character1_LeftHandThumb1
+  - baseBoneName: Character1_RightHandThumb2
+    mirrorBoneName: Character1_LeftHandThumb2
+  - baseBoneName: Character1_RightHandThumb3
+    mirrorBoneName: Character1_LeftHandThumb3
+  - baseBoneName: Character1_RightHandThumb4
+    mirrorBoneName: Character1_LeftHandThumb4
+  - baseBoneName: bone_eye_R
+    mirrorBoneName: bone_eye_L
+  - baseBoneName: J_R_Elbow
+    mirrorBoneName: J_L_Elbow
+  - baseBoneName: J_R_ForeArm_00_tw
+    mirrorBoneName: J_L_ForeArm_00_tw
+  - baseBoneName: J_R_Sode_A00
+    mirrorBoneName: J_L_Sode_A00
+  - baseBoneName: J_R_Sode_A01
+    mirrorBoneName: J_L_Sode_A01
+  - baseBoneName: J_R_Sode_B00
+    mirrorBoneName: J_L_Sode_B00
+  - baseBoneName: J_R_Sode_B01
+    mirrorBoneName: J_L_Sode_B01
+  - baseBoneName: J_R_Sode_C00
+    mirrorBoneName: J_L_Sode_C00
+  - baseBoneName: J_R_Sode_C01
+    mirrorBoneName: J_L_Sode_C01
+  - baseBoneName: J_R_Sode_D00
+    mirrorBoneName: J_L_Sode_D00
+  - baseBoneName: J_R_Sode_D01
+    mirrorBoneName: J_L_Sode_D01
+  - baseBoneName: J_R_Arm_00_tw
+    mirrorBoneName: J_L_Arm_00_tw
+  - baseBoneName: J_R_Sode_E00
+    mirrorBoneName: J_L_Sode_E00
+  - baseBoneName: J_R_HairFront_00
+    mirrorBoneName: J_L_HairFront_00
+  - baseBoneName: J_R_HairFront_01
+    mirrorBoneName: J_L_HairFront_01
+  - baseBoneName: J_R_HairSide2_00
+    mirrorBoneName: J_L_HairSide2_00
+  - baseBoneName: J_R_HairSide2_01
+    mirrorBoneName: J_L_HairSide2_01
+  - baseBoneName: J_R_HairSide_00
+    mirrorBoneName: J_L_HairSide_00
+  - baseBoneName: J_R_HairSide_01
+    mirrorBoneName: J_L_HairSide_01
+  - baseBoneName: J_R_HairSide_02
+    mirrorBoneName: J_L_HairSide_02
+  - baseBoneName: J_R_HairTail_00
+    mirrorBoneName: J_L_HairTail_00
+  - baseBoneName: J_R_HairTail_01
+    mirrorBoneName: J_L_HairTail_01
+  - baseBoneName: J_R_HairTail_02
+    mirrorBoneName: J_L_HairTail_02
+  - baseBoneName: J_R_HairTail_03
+    mirrorBoneName: J_L_HairTail_03
+  - baseBoneName: J_R_HeadRibbon_00
+    mirrorBoneName: J_L_HeadRibbon_00
+  - baseBoneName: J_R_HeadRibbon_01
+    mirrorBoneName: J_L_HeadRibbon_01
+  - baseBoneName: J_R_HeadRibbon_02
+    mirrorBoneName: J_L_HeadRibbon_02
+  - baseBoneName: J_R_HeadRibbon_03
+    mirrorBoneName: J_L_HeadRibbon_03
