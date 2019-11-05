@@ -23,7 +23,7 @@ namespace Ism.MirrorAnimation
 		{
             if(m_mirrorAnimationSetting == null)
 			{
-				m_mirrorAnimationSetting = AssetDatabase.LoadAssetAtPath<MirrorAnimationSetting>("Assets/This/Editor/MirrorAnimation/MirrorAnimationSetting.asset");
+				m_mirrorAnimationSetting = AssetDatabase.LoadAssetAtPath<MirrorAnimationSetting>("Assets/Ism/Editor/MirrorAnimation/MirrorAnimationSetting.asset");
 			}
 		}
 
